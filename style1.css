@@ -1,0 +1,21 @@
+body {
+  margin:0;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom:1px solid black;
+  padding-bottom: 25px;
+  margin-bottom: 0;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#grid #message {
+  border-right:1px solid black;
+  padding-left:15px;
+}
+#grid #text {
+  padding-left:15px;
+}
